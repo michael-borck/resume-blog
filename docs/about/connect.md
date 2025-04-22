@@ -2,6 +2,12 @@
 title: "Let's Connect"
 description: "Connect with me on social media and explore my site."
 categories: [Connect, Social Media, Contact]
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: https://images.unsplash.com/photo-1557682250-27278ae3485a
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "Find me on various platforms and social media channels."
 ---
 
 Feel free to explore my site and connect with me on social media!
