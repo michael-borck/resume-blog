@@ -1,0 +1,126 @@
+:root {
+  --accent-light: #6e56cf;
+  --accent-dark: #4e46e5;
+  --background-light: #ffffff;
+  --background-dark: #13151a;
+  --text-light: #4c4f69;
+  --text-dark: #f8f9fa;
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-light);
+  background-color: var(--background-light);
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+a {
+  color: var(--accent-light);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-dark);
+  text-decoration: underline;
+}
+
+.card {
+  background-color: var(--background-light);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Magazine-style features */
+.magazine-header {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 4px solid var(--accent-light);
+}
+
+.magazine-section {
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  display: inline-block;
+  font-size: 1.75rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-light);
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.featured-card {
+  grid-column: span 2;
+}
+
+@media (max-width: 768px) {
+  .featured-card {
+    grid-column: span 1;
+  }
+}

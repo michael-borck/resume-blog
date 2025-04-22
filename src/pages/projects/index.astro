@@ -1,0 +1,42 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+
+// Import all project markdown files
+const projectFiles = await Astro.glob('../../../docs/projects/*.md');
+
+// Transform the data for use in cards
+const projects = projectFiles.map(file => ({
+  title: file.frontmatter.title,
+  description: file.frontmatter.description || '',
+  categories: file.frontmatter.categories || [],
+  slug: file.url || '#',
+  content: file.Content,
+}));
+---
+
+<Layout title="Projects | Michael Borck">
+  <div class="magazine-section">
+    <h1 class="section-title">Projects</h1>
+    
+    <div class="card-grid">
+      {projects.map((project) => (
+        <Card 
+          title={project.title}
+          description={project.description}
+          categories={project.categories}
+        >
+          <div class="project-content">
+            <project.content />
+          </div>
+        </Card>
+      ))}
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .project-content {
+    margin-top: 1rem;
+  }
+</style>

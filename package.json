@@ -1,0 +1,26 @@
+{
+  "name": "resume-magazine",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Magazine-style resume built with Astro",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "resume",
+    "portfolio",
+    "astro"
+  ],
+  "author": "Michael Borck",
+  "license": "ISC",
+  "dependencies": {
+    "astro": "^5.7.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
