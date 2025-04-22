@@ -1,6 +1,7 @@
 # Astro build output
 dist/
 .output/
+.astro/
 
 # Node modules
 node_modules/
