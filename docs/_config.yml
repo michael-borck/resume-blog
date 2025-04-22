@@ -1,0 +1,27 @@
+title: "My Resume Magazine"
+description: "A magazine-style showcase of my resumes"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://<YOUR_USERNAME>.github.io"
+
+theme: null
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Configure custom collection for resumes
+collections:
+  resumes:
+    output: true
+    permalink: /resumes/:name/
+
+# Default values for resume items
+defaults:
+  - scope:
+      path: ""
+      type: "resumes"
+    values:
+      layout: single
+      author_profile: false
