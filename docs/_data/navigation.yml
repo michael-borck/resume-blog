@@ -1,0 +1,39 @@
+main:
+  - title: "Resumes"
+    url: /resumes/
+  - title: "Projects"
+    url: /projects/
+  - title: "Passions"
+    url: /passions/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Research"
+    url: /research/publications/
+  - title: "About"
+    url: /about/hello/
+    
+resume:
+  - title: About Me
+    children:
+      - title: "Hello"
+        url: /about/hello/
+      - title: "Expertise"
+        url: /about/expertise/
+      - title: "Skills"
+        url: /about/skills/
+      - title: "Education"
+        url: /about/education/
+      - title: "Interests"
+        url: /about/interest/
+      - title: "Connect"
+        url: /about/connect/
+  - title: Experience
+    children:
+      - title: "Teaching"
+        url: /teaching/experience/
+      - title: "Projects"
+        url: /projects/
+  - title: Download
+    children:
+      - title: "PDF Resume"
+        url: /files/resume.pdf
