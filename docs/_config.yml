@@ -38,6 +38,12 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:name/
+  talks:
+    output: true
+    permalink: /talks/:name/
+  research:
+    output: true
+    permalink: /research/:name/
 
 # Default values
 defaults:
@@ -81,6 +87,39 @@ defaults:
   - scope:
       path: ""
       type: "projects"
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      show_date: true
+      share: true
+      classes: wide
+  # _teaching
+  - scope:
+      path: ""
+      type: "teaching"
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      show_date: true
+      share: true
+      classes: wide
+  # _talks
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      show_date: true
+      share: true
+      classes: wide
+  # _research
+  - scope:
+      path: ""
+      type: "research"
     values:
       layout: single
       author_profile: false

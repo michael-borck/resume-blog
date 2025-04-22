@@ -6,7 +6,9 @@ main:
   - title: "Passions"
     url: /passions/
   - title: "Teaching"
-    url: /teaching/
+    url: /teaching/experience/
+  - title: "Talks"
+    url: /talks/
   - title: "Research"
     url: /research/publications/
   - title: "About"
