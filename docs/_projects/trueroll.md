@@ -5,7 +5,7 @@ categories: [python, ten-pin bowling, simulation]
 excerpt: "TrueRoll is an simulation toolkit designed for modelling ten-pin bowling games. It offers a comprehe..."
 date: '2022-11-02'
 header:
-  teaser: https://images.unsplash.com/photo-1551033406-611cf9a28f67
+  teaser: https://images.unsplash.com/photo-1531482615713-2afd69097998
   overlay_image: https://images.unsplash.com/photo-1551033406-611cf9a28f67
   overlay_filter: 0.6
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

@@ -5,7 +5,7 @@ categories: [3d printing, maker, technology, hobby]
 excerpt: ""
 date: '2022-12-27'
 header:
-  teaser: https://images.unsplash.com/photo-1518152006812-edab29b069ac
+  teaser: https://images.unsplash.com/photo-1559825481-12a05cc00344
   overlay_image: https://images.unsplash.com/photo-1518152006812-edab29b069ac
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

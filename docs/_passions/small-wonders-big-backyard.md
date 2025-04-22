@@ -5,7 +5,7 @@ categories: [photography, macro, astrophotography, backyard, nature]
 excerpt: ""
 date: '2023-01-27'
 header:
-  teaser: https://images.unsplash.com/photo-1518152006812-edab29b069ac
+  teaser: https://images.unsplash.com/photo-1542082873-c1d363ca6664
   overlay_image: https://images.unsplash.com/photo-1518152006812-edab29b069ac
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

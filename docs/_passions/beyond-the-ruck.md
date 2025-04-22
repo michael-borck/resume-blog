@@ -5,7 +5,7 @@ categories: [rugby, sports, teamwork, passion]
 excerpt: ""
 date: '2022-09-22'
 header:
-  teaser: https://images.unsplash.com/photo-1499415479124-43c32433a620
+  teaser: https://images.unsplash.com/photo-1612872087720-bb876e2e67d1
   overlay_image: https://images.unsplash.com/photo-1499415479124-43c32433a620
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
