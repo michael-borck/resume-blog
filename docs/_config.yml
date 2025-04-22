@@ -1,5 +1,5 @@
-title: "My Resume Magazine"
-description: "A magazine-style showcase of my resumes"
+title: "Michael Borck"
+description: "A magazine-style showcase of my professional journey"
 baseurl: "/resume-magazine" # the subpath of your site, e.g. /resume-magazine
 url: "https://michael-borck.github.io"
 
@@ -7,7 +7,8 @@ theme: null
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-logo: "/assets/images/logo.png" # Site logo for top navigation
+# Remove logo to prevent the duplicate title showing
+# logo: "/assets/images/logo.png" # Site logo for top navigation
 
 # Search functionality
 search: true

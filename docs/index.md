@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "My Resume Magazine"
+title: "Welcome"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -8,7 +8,7 @@ header:
   actions:
     - label: "View Resumes"
       url: "/resumes/"
-excerpt: "Welcome to a magazine-style showcase of my professional journey."
+excerpt: "A magazine-style showcase of my professional journey and experiences."
 intro: 
   - excerpt: "Explore my experience, passions, and projects through this interactive magazine."
 

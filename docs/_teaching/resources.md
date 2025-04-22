@@ -5,7 +5,7 @@ categories: [Lecture Slides, Development, Information Systems]
 excerpt: "Step into my world as an educator and explore this curated collection of teaching resources, honed t..."
 date: '2022-11-13'
 header:
-  teaser: https://images.unsplash.com/photo-1544531586-5f8b22a682ee
+  teaser: https://images.unsplash.com/photo-1543269865-cbf427effbad
   overlay_image: https://images.unsplash.com/photo-1544531586-5f8b22a682ee
   overlay_filter: 0.6
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
