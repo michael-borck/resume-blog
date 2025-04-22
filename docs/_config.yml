@@ -1,7 +1,7 @@
 title: "My Resume Magazine"
 description: "A magazine-style showcase of my resumes"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: ""
+baseurl: "/resume-magazine" # the subpath of your site, e.g. /resume-magazine
+url: "https://michael-borck.github.io"
 
 theme: null
 remote_theme: mmistakes/minimal-mistakes@4.24.0
