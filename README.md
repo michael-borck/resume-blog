@@ -1,6 +1,6 @@
-# Resume Magazine Site
+# Resume Blog Site
 
-This repository hosts a magazine‑style resume showcase built with Jekyll and the Minimal Mistakes theme, and is published on GitHub Pages from the `docs/` folder.
+This repository hosts a blog-article resume showcase built with Jekyll and the Minimal Mistakes theme, and is published on GitHub Pages from the `docs/` folder.
 
 ## Features
 - Custom `resumes` collection (front‑matter, pretty permalinks)
