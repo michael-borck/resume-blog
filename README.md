@@ -1,5 +1,9 @@
 # Resume Blog Site
 
+<!-- BADGES:START -->
+[![blog](https://img.shields.io/badge/-blog-blue?style=flat-square)](https://github.com/topics/blog) [![github-pages](https://img.shields.io/badge/-github--pages-blue?style=flat-square)](https://github.com/topics/github-pages) [![jekyll](https://img.shields.io/badge/-jekyll-blue?style=flat-square)](https://github.com/topics/jekyll) [![magazine-theme](https://img.shields.io/badge/-magazine--theme-blue?style=flat-square)](https://github.com/topics/magazine-theme) [![minimal-mistakes](https://img.shields.io/badge/-minimal--mistakes-blue?style=flat-square)](https://github.com/topics/minimal-mistakes) [![resume](https://img.shields.io/badge/-resume-00bcd4?style=flat-square)](https://github.com/topics/resume) [![ruby](https://img.shields.io/badge/-ruby-cc342d?style=flat-square)](https://github.com/topics/ruby) [![markdown](https://img.shields.io/badge/-markdown-blue?style=flat-square)](https://github.com/topics/markdown) [![portfolio](https://img.shields.io/badge/-portfolio-blue?style=flat-square)](https://github.com/topics/portfolio) [![static-site](https://img.shields.io/badge/-static--site-blue?style=flat-square)](https://github.com/topics/static-site)
+<!-- BADGES:END -->
+
 This repository hosts a blog-article resume showcase built with Jekyll and the Minimal Mistakes theme, and is published on GitHub Pages from the `docs/` folder.
 
 ## Features
